@@ -1,8 +1,9 @@
 ---
 name: fund
-description: Fund the wallet with USDC via Coinbase Onramp. Use when you are out of funds and want to add money, buy USDC, deposit funds, or top up the wallet.
+description: Add money to the wallet. Use when you or the user want to fund, deposit, top up, load, buy USDC, add funds, onramp, or get USDC. Also use when the wallet has insufficient balance for a send or trade operation, or when someone asks "how do I get USDC?"
 user-invocable: true
 disable-model-invocation: false
+allowed-tools: ["Bash(npx awal@latest status*)", "Bash(npx awal@latest show*)", "Bash(npx awal@latest address*)", "Bash(npx awal@latest balance*)"]
 ---
 
 # Funding the Wallet
@@ -54,7 +55,7 @@ npx awal@latest address
 ## Flow
 
 1. Run `npx awal@latest show` to open the wallet UI
-2. Instruct the user to click "Buy USDC" or the fund button
+2. Instruct the user to click the Fund button
 3. User selects amount and payment method in the UI
 4. User completes payment through Coinbase Pay (opens in browser)
 5. USDC is deposited to the wallet once payment confirms
