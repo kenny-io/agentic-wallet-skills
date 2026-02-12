@@ -10,6 +10,7 @@
 | [fund](./skills/fund/SKILL.md) | Add money to the wallet via Coinbase Onramp |
 | [send-usdc](./skills/send-usdc/SKILL.md) | Send USDC to Ethereum addresses or ENS names |
 | [trade](./skills/trade/SKILL.md) | Swap/trade tokens on Base (USDC, ETH, WETH) |
+| [li-fi](./skills/li-fi/SKILL.md) | Cross-chain and same-chain token swaps, bridging, and DeFi operations via LI.FI |
 | [search-for-service](./skills/search-for-service/SKILL.md) | Search the x402 bazaar for paid API services |
 | [pay-for-service](./skills/pay-for-service/SKILL.md) | Make paid API requests via x402 |
 | [monetize-service](./skills/monetize-service/SKILL.md) | Build and deploy a paid API that other agents can use via x402 |
